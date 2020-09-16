@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "472992466193",
+    "firebase_url": "https://whatsappfacebookvideosaver.firebaseio.com",
+    "project_id": "whatsappfacebookvideosaver",
+    "storage_bucket": "whatsappfacebookvideosaver.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472992466193:android:08eab159fcd33a3f18b8b0",
+        "android_client_info": {
+          "package_name": "com.example.whatsapp_facebook_videosaver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472992466193-hqv7hrkvhuvcrkpoamnnmmurdf9ao6b6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.whatsapp_facebook_videosaver",
+            "certificate_hash": "7ad1ea7f1e5770430fa48cd47f6af7a956589810"
+          }
+        },
+        {
+          "client_id": "472992466193-opnbg298ushoauq3urfit03k4t612lu4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFept2QUtaTlnR5iVCh-9jkyYtMjOyrSc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472992466193-opnbg298ushoauq3urfit03k4t612lu4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

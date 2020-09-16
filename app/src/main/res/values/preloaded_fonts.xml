@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abhaya_libre</item>
+        <item>@font/anton</item>
+        <item>@font/architects_daughter</item>
+        <item>@font/baloo</item>
+        <item>@font/basic</item>
+        <item>@font/basic1</item>
+    </array>
+</resources>

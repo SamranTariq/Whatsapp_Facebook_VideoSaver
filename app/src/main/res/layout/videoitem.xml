@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_120sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/_10sdp"
+    android:layout_margin="@dimen/_10sdp"
+    android:elevation="5dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E4000000"
+        android:src="@android:drawable/divider_horizontal_dark"
+        android:id="@+id/relaiveimgaeone">
+
+        <VideoView
+            android:id="@id/image"
+            android:layout_width="316dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="70dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"></VideoView>
+
+        <ImageView
+            android:id="@+id/imagesavebutton"
+            android:layout_width="35dp"
+            android:layout_height="37dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="13dp"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/download"></ImageView>
+
+        <ImageView
+            android:id="@+id/playing"
+            android:layout_width="57dp"
+            android:layout_height="64dp"
+            android:src="@drawable/play"></ImageView>
+        <ImageView
+            android:id="@+id/stop"
+            android:layout_width="57dp"
+            android:layout_height="64dp"
+            android:visibility="invisible"
+            android:src="@drawable/stop"></ImageView>
+
+        <ImageView
+            android:id="@+id/videostatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="18dp"
+            app:srcCompat="@drawable/status" />
+
+        <ImageView
+            android:id="@+id/videoshare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/videostatus"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="-46dp"
+            android:layout_marginRight="21dp"
+            app:srcCompat="@drawable/share" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

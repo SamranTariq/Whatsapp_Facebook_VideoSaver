@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="WhatsApp">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/home_nav2"
+                    android:icon="@drawable/all"
+                    android:title="All Status"></item>
+                <item
+                    android:id="@+id/home_nav3"
+                    android:icon="@drawable/image"
+                    android:title="Images"></item>
+                <item
+                    android:id="@+id/home_nav4"
+                    android:icon="@drawable/video"
+                    android:title="Videos"></item>
+                <item
+                    android:id="@+id/home_nav5"
+                    android:icon="@drawable/gallery"
+                    android:title="Gallery"></item>
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="Facebook">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/facebookvideo"
+                    android:icon="@drawable/video"
+                    android:title="Videos"></item>
+                <item
+                    android:id="@+id/facebookgallery"
+                    android:icon="@drawable/gallery"
+                    android:title="Gallery"></item>
+            </group>
+        </menu>
+    </item>
+
+      <item android:title="Info">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/home_nav6"
+                        android:icon="@drawable/use"
+                        android:title="How To Use!"></item>
+                    <item
+                        android:id="@+id/home_na7"
+                        android:icon="@drawable/setting"
+                        android:title="Setting"></item>
+                </group>
+            </menu>
+        </item>
+    <item android:title="For Us...">
+        <menu>
+             <item
+                    android:id="@+id/home_nav8"
+                    android:icon="@drawable/rate"
+                    android:title="Rate US"></item>
+                <item
+                    android:id="@+id/home_nav9"
+                    android:icon="@drawable/share"
+                    android:title="Share"></item>
+        </menu>
+    </item>
+</menu>

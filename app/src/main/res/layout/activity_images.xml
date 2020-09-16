@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".Images">
+    <ImageButton
+        android:id="@+id/imageButtonback"
+        android:layout_width="72dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="1dp"
+        android:background="#000"
+        app:srcCompat="@drawable/arrowback"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:layout_marginStart="@dimen/_50sdp"
+        android:fontFamily="@font/basic1"
+        android:text="Images"
+        android:textColor="#FFF"
+        android:textSize="@dimen/_16sdp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/openwhatsapp"
+        android:layout_height="@dimen/_28sdp"
+        android:text="open whatsapp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/wopenbutton"
+        android:fontFamily="@font/baloo"
+        android:layout_marginRight="@dimen/_8sdp"
+        android:textColor="#fff"
+        android:textSize="@dimen/_12sdp"
+        android:layout_alignParentRight="true"></TextView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_47sdp"
+        android:id="@+id/recyclerview"/>
+
+    <ProgressBar
+        android:id="@+id/load"
+        android:layout_width="63dp"
+        android:layout_height="113dp"
+        android:indeterminateDrawable="@drawable/progressbar"
+        android:layout_centerInParent="true"></ProgressBar>
+
+
+</RelativeLayout>

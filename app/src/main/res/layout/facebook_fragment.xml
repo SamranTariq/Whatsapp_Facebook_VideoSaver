@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="false"
+    android:layout_centerHorizontal="false"
+    android:layout_weight="1"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/architects_daughter"
+            android:text=".  Facebook Video Downloader"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toStartOf="@+id/imageView4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/baloo"
+            android:text="Welcome"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toStartOf="@+id/imageView4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="123dp"
+            android:layout_height="122dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/facebookicon" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="7dp"
+                android:layout_weight="1"
+                app:cardElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#3F51B5">
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:fontFamily="@font/abhaya_libre"
+                        android:text="Log In With Facebook"
+                        android:textColor="#FFFFFF"
+                        android:textSize="24sp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="173dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.526"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/imageViewall"
+                        android:layout_centerInParent="true"
+                        android:fontFamily="@font/baloo"
+                        android:text="Video"
+                        android:textSize="24sp" />
+
+                    <ImageView
+                        android:id="@+id/imageViewall"
+                        android:layout_width="117dp"
+                        android:layout_height="99dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="15dp"
+                        app:srcCompat="@mipmap/gallery" />
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/imageViewimages"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/baloo"
+                        android:text="My Gallery"
+                        android:textSize="24sp" />
+
+                    <ImageView
+                        android:id="@+id/imageViewimages"
+                        android:layout_width="117dp"
+                        android:layout_height="99dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="15dp"
+                        app:srcCompat="@mipmap/galleryagain" />
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="415dp"
+            android:layout_height="133dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="44dp"
+                        android:layout_height="match_parent"
+                        android:background="#3F51B5"
+                        app:srcCompat="@mipmap/link" />
+
+                    <EditText
+                        android:id="@+id/editTextvideourl"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="false"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/border"
+                        android:ems="10"
+                        android:hint="Paste Facebook Video link Here"
+                        android:inputType="textPersonName" />
+
+                    <ImageView
+                        android:id="@+id/imageviewdownload"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/editTextvideourl"
+                        android:layout_marginLeft="295dp"
+                        android:layout_marginTop="7dp"
+                        android:background="#3F51B5"
+                        app:srcCompat="@drawable/downloadfb" />
+
+                    <TextView
+                        android:id="@+id/textViewlinkdownload"
+                        android:layout_width="wrap_content"
+                        android:paddingRight="5dp"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/editTextvideourl"
+                        android:layout_marginLeft="317dp"
+                        android:layout_marginTop="7dp"
+                        android:background="#3F51B5"
+                        android:paddingTop="9dp"
+                        android:paddingLeft="0dp"
+                        android:text="Download"
+                        android:textColor="#FFFFFF" />
+                    <ProgressBar
+                        android:id="@+id/progress"
+                        android:layout_width="wrap_content"
+                        android:paddingRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/editTextvideourl"
+                        android:layout_marginLeft="317dp"
+                        android:layout_marginTop="7dp"
+                        android:indeterminateDrawable="@drawable/progresfb"
+                        android:paddingTop="9dp"
+                        android:paddingLeft="0dp"
+                        android:visibility="invisible"/>
+
+                    <ImageView
+                        android:id="@+id/imageviewpase"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/editTextvideourl"
+                        android:layout_marginStart="175dp"
+                        android:layout_marginTop="7dp"
+                        android:background="#3F51B5"
+                        app:srcCompat="@drawable/linkfb" />
+
+                    <TextView
+                        android:id="@+id/textViewpaste"
+                        android:layout_width="wrap_content"
+                        android:paddingRight="5dp"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/editTextvideourl"
+                        android:layout_marginStart="198dp"
+                        android:layout_marginTop="7dp"
+                        android:background="#3F51B5"
+                        android:paddingTop="9dp"
+                        android:text="Paste Link"
+                        android:textColor="#FFFFFF" />
+
+                    <ImageView
+                        android:id="@+id/imageviewlink"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/editTextvideourl"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginTop="7dp"
+                        android:background="#3F51B5"
+                        app:srcCompat="@drawable/help" />
+
+                    <TextView
+                        android:id="@+id/textViewlink"
+                        android:layout_width="wrap_content"
+                        android:paddingRight="5dp"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/editTextvideourl"
+                        android:layout_marginStart="73dp"
+                        android:layout_marginTop="7dp"
+                        android:background="#3F51B5"
+                        android:paddingTop="9dp"
+                        android:text="How It Work"
+                        android:textColor="#FFFFFF" />
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="408dp"
+            android:layout_height="191dp"
+            android:orientation="horizontal"
+            android:padding="7dp"
+            android:paddingLeft="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="15dp"
+                        android:background="#BEF"
+                        app:srcCompat="@drawable/info" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="24dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_toRightOf="@id/imageView7"
+                        android:background="#BEF"
+                        android:paddingStart="10dp"
+                        android:paddingTop="5dp"
+                        android:text=" If You Want To Download Any Stutus You Have To Watch It First"
+                        android:textColor="#059"
+                        android:textSize="10sp" />
+
+                    <ImageView
+                        android:id="@+id/imageView17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="60dp"
+                        android:background="#BEF"
+                        app:srcCompat="@drawable/info" />
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="24dp"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_toRightOf="@id/imageView17"
+                        android:background="#BEF"
+                        android:paddingStart="10dp"
+                        android:paddingTop="5dp"
+                        android:text="Status You Download, Shown In 'My Gallery'. . . . . . . . . . . . . . . . . . "
+                        android:textColor="#059"
+                        android:textSize="10sp" />
+
+                    <ImageView
+                        android:id="@+id/imageView27"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="55dp"
+                        android:layout_marginTop="110dp"
+                        android:background="#DFF2BF"
+                        app:srcCompat="@drawable/tick" />
+
+                    <TextView
+                        android:id="@+id/textView26"
+                        android:layout_width="230dp"
+                        android:layout_height="24dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="110dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_toRightOf="@id/imageView17"
+                        android:background="#DFF2BF"
+                        android:paddingStart="10dp"
+                        android:paddingTop="5dp"
+                        android:text="If have any problem please contact us"
+                        android:textColor="#270"
+                        android:textSize="10sp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

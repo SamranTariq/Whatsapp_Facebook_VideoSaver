@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/boederimages"
+    android:id="@+id/gall"
+    android:layout_height="@dimen/_100sdp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_80sdp"
+        android:id="@+id/imageviewgalleryitem"></ImageView>
+
+    <ImageView
+
+        android:id="@+id/imageViewdelete"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/button"
+        app:srcCompat="@drawable/delete" />
+
+    <ImageView
+        android:id="@+id/playgalleryvideo"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/ic_play"></ImageView>
+</RelativeLayout>

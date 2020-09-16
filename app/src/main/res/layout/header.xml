@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="#25FF2E"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="247dp"
+        android:layout_height="156dp"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/icon3"></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="@font/baloo"
+        android:text="All In One Downloader"
+        android:textSize="16dp"
+        android:textColor="#20AA26"></TextView>
+
+</LinearLayout>
